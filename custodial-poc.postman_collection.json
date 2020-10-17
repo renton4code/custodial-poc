@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "d6181b9c-7b36-4984-b9e2-9dcb54af08a2",
+		"name": "custodial-poc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "exchange",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"masterKey\": \"foobar\",\n    \"currency\": \"BTC\",\n    \"senderAddress\": \"d19f7f28-8457-402d-8fc3-d1e1367ac0df\",\n    \"targetAddress\": \"63a63e4f-4e59-4566-8666-4569b9a1cb64\",\n    \"amount\": 0.01\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/wallet/exchange",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"wallet",
+						"exchange"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

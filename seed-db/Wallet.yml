@@ -1,0 +1,11 @@
+Wallet:
+  - Wallet:
+      address: "d19f7f28-8457-402d-8fc3-d1e1367ac0df"
+      masterKey: "$2b$12$cbcZ7tZ1MiYgxQm78Hro3.O72qR23y/j0vymSaMpvOkhY7t1Wy3re" # foobar
+      btcBalance: 1
+      ethBalance: 10
+  - Wallet:
+      address: "63a63e4f-4e59-4566-8666-4569b9a1cb64"
+      masterKey: "$2b$12$9uxDiAO1zF8e/gVAR8Se/uplqHEbwbFimae/4ZHhTAhMQQ5Wb4YcW" # barfoo
+      btcBalance: 1
+      ethBalance: 10
